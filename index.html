@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoping</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,200;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon cdns -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- icon feather -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- dekstop view -->
+
+    <div class="container" id="container">
+      <div id="menu">
+        <div class="menu-logo">
+          <img
+            src="image/groceries-high-resolution-logo-black-transparent.png"
+            alt="png"
+          />
+        </div>
+        <div class="menu-item">
+          <a href="#groceries-item">Home<i data-feather="chevron-right"></i></a>
+          <a href="#">Service<i data-feather="chevron-right"></i></a>
+          <a href="#">Your Order<i data-feather="chevron-right"></i></a>
+          <a href="#">Wishlist<i data-feather="chevron-right"></i></a>
+          <a href="#">Cart<i data-feather="chevron-right"></i></a>
+          <a href="#">Address<i data-feather="chevron-right"></i></a>
+          <a href="#">Help<i data-feather="chevron-right"></i></a>
+        </div>
+      </div>
+      <div id="groceries-container">
+        <div id="header">
+          <div class="add-box">
+            <i class="fa fa-map-marker your-address" id="add-address">
+              Your Addres</i
+            >
+          </div>
+          <div class="utility">
+            <i class="fa fa-search"> Search</i>
+            <i class="fa fa-tags"> Offers</i>
+            <i class="fa fa-cart-plus" id="cart-plus"> 0 Items </i>
+          </div>
+        </div>
+        <div id="groceries-item">
+          <div id="cigaretes">
+            <p id="category-name">Cigaretes</p>
+          </div>
+          <div id="groceries">
+            <p id="category-name">Groceries</p>
+          </div>
+
+          <div id="snack">
+            <p id="category-name">Snack</p>
+          </div>
+
+          <div id="drink">
+            <p id="category-name">Drink</p>
+          </div>
+        </div>
+
+        <div id="cart-page" class="cart-toggle">
+          <p id="cart-title">Cart-item</p>
+          <p id="m-total-amount"></p>
+          <table>
+            <thead>
+              <td>Item</td>
+              <td>Name</td>
+              <td>Quantity</td>
+              <td>Price</td>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="cart">
+        <div class="cart-header">
+          <div class="user">
+            <i class="fa fa-user-circle-o"> Account</i>
+          </div>
+          <div id="category-list">
+            <p class="item-menu">Choose Your Needs</p>
+            <div class="border"></div>
+          </div>
+        </div>
+        <div id="chekout" class="cart-toggle">
+          <p id="total-item"></p>
+          <p id="delivery">Shipping Cost : Free delivery</p>
+          <p id="total-price"></p>
+          <button class="cart-btn">Chekout</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile viev -->
+    <div id="mobile-view" class="mobile-view">
+      <div class="mobile-top">
+        <div class="logo-box">
+          <img
+            src="image/groceries-high-resolution-logo-black-transparent.png"
+            alt=""
+            id="logo"
+          />
+          <i class="fa fa-map-marker your-address" id="m-add-address">
+            Your Address
+          </i>
+        </div>
+        <div class="top-menu">
+          <i class="fa fa-search"></i>
+          <i class="fa fa-tag"></i>
+          <i class="fa fa-heart-o"></i>
+          <i class="fa fa-cart-plus" id="m-cart-plus"></i>
+        </div>
+      </div>
+
+      <div class="groceries-container">
+        <div class="category-header" id="category-header"></div>
+
+        <div class="groceries-item" id="groceries-item">
+          <div id="cigaretes">
+            <p id="category-name">Cigaretes</p>
+          </div>
+          <div id="groceries">
+            <p id="category-name">Groceries</p>
+          </div>
+
+          <div id="snack">
+            <p id="category-name">Snack</p>
+          </div>
+
+          <div id="drink">
+            <p id="category-name">Drink</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-footer">
+        <a href="#">Home</a>
+        <a href="#">Cart</a>
+        <a href="#">Offers</a>
+        <a href="#">Order</a>
+      </div>
+    </div>
+    <!-- icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- js -->
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>
