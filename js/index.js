@@ -26,8 +26,9 @@ function displayItem() {
     star.setAttribute("class", "fa fa-star");
     star.setAttribute("id", "rating");
     star.innerText = " " + item.rating;
+
     var heart = document.createElement("i");
-    heart.setAttribute("class", "fa fa-heart-o add-to-cart  ");
+    heart.setAttribute("class", "fa fa-heart-o add-to-cart");
     heart.setAttribute("id", item.id);
 
     cardTop.appendChild(star);
@@ -65,7 +66,7 @@ function displayItem() {
     star.innerText = " " + item.rating;
 
     var heart = document.createElement("i");
-    heart.setAttribute("class", "fa fa-heart-o add-to-cart  ");
+    heart.setAttribute("class", "fa fa-heart-o add-to-cart");
     heart.setAttribute("id", item.id);
 
     cardTop.appendChild(star);
@@ -103,7 +104,7 @@ function displayItem() {
     star.innerText = " " + item.rating;
 
     var heart = document.createElement("i");
-    heart.setAttribute("class", "fa fa-heart-o add-to-cart  ");
+    heart.setAttribute("class", "fa fa-heart-o add-to-cart");
     heart.setAttribute("id", item.id);
 
     cardTop.appendChild(star);
@@ -141,7 +142,7 @@ function displayItem() {
     star.innerText = " " + item.rating;
 
     var heart = document.createElement("i");
-    heart.setAttribute("class", "fa fa-heart-o add-to-cart  ");
+    heart.setAttribute("class", "fa fa-heart-o add-to-cart");
     heart.setAttribute("id", item.id);
 
     cardTop.appendChild(star);
@@ -234,7 +235,6 @@ function cartItem() {
     var rowData1 = document.createElement("td");
     var img = document.createElement("img");
     img.src = item.img;
-
     rowData1.appendChild(img);
 
     var rowData2 = document.createElement("td");
