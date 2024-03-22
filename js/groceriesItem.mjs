@@ -7,7 +7,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 32000,
-    img: "../image/Cigarettes/surya16.jpg",
+    img: "image/Cigarettes/surya16.jpg",
     quantity: 1,
   },
   {
@@ -16,7 +16,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 23000,
-    img: "../image/Cigarettes/surya12.jpg",
+    img: "image/Cigarettes/surya12.jpg",
     quantity: 1,
   },
   {
@@ -25,7 +25,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 23000,
-    img: "../image/Cigarettes/juara.jpg",
+    img: "image/Cigarettes/juara.jpg",
     quantity: 1,
   },
   {
@@ -34,7 +34,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 18000,
-    img: "../image/Cigarettes/gajahBaru.jpg",
+    img: "image/Cigarettes/gajahBaru.jpg",
     quantity: 1,
   },
   {
@@ -43,7 +43,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 20000,
-    img: "../image/Cigarettes/DjarumSuper.jpg",
+    img: "image/Cigarettes/DjarumSuper.jpg",
     quantity: 1,
   },
   {
@@ -52,7 +52,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 15000,
-    img: "../image/Cigarettes/Djarum76.jpg",
+    img: "image/Cigarettes/Djarum76.jpg",
     quantity: 1,
   },
   {
@@ -61,7 +61,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 25000,
-    img: "../image/Cigarettes/marlboroBlack.jpg",
+    img: "image/Cigarettes/marlboroBlack.jpg",
     quantity: 1,
   },
   {
@@ -70,7 +70,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 40000,
-    img: "../image/Cigarettes/marlboro.jpg",
+    img: "image/Cigarettes/marlboro.jpg",
     quantity: 1,
   },
   {
@@ -79,7 +79,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 33000,
-    img: "../image/Cigarettes/sampoerna.jpg",
+    img: "image/Cigarettes/sampoerna.jpg",
     quantity: 1,
   },
   {
@@ -88,7 +88,7 @@ export const groceriesItem = [
     category: "cigaretes",
     rating: 4.3,
     price: 20000,
-    img: "../image/Cigarettes/DjiSamSoe.jpg",
+    img: "image/Cigarettes/DjiSamSoe.jpg",
     quantity: 1,
   },
 
@@ -100,7 +100,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 60000,
-    img: "../image/Groceries/Beras.jpg",
+    img: "image/Groceries/Beras.jpg",
     quantity: 1,
   },
   {
@@ -109,7 +109,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 20000,
-    img: "../image/Groceries/galon.jpg",
+    img: "image/Groceries/galon.jpg",
     quantity: 1,
   },
   {
@@ -118,7 +118,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 7000,
-    img: "../image/Groceries/garam.jpg",
+    img: "image/Groceries/garam.jpg",
     quantity: 1,
   },
   {
@@ -136,7 +136,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 9000,
-    img: "../image/Groceries/Kecap.jpg",
+    img: "image/Groceries/Kecap.jpg",
     quantity: 1,
   },
   {
@@ -145,7 +145,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 20000,
-    img: "../image/Groceries/Lpg.jpg",
+    img: "image/Groceries/Lpg.jpg",
     quantity: 1,
   },
   {
@@ -154,7 +154,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 2500,
-    img: "../image/Groceries/MieGoreng.jpg",
+    img: "image/Groceries/MieGoreng.jpg",
     quantity: 1,
   },
   {
@@ -163,7 +163,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 40000,
-    img: "../image/Groceries/minyak.jpg",
+    img: "image/Groceries/minyak.jpg",
     quantity: 1,
   },
   {
@@ -181,7 +181,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 20000,
-    img: "../image/Groceries/Telur.jpg",
+    img: "image/Groceries/Telur.jpg",
     quantity: 1,
   },
 
@@ -193,7 +193,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 2000,
-    img: "../image/Snack/Chikiballs.jpg",
+    img: "image/Snack/Chikiballs.jpg",
     quantity: 1,
   },
   {
@@ -202,7 +202,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 7000,
-    img: "../image/Snack/crackers.jpg",
+    img: "image/Snack/crackers.jpg",
     quantity: 1,
   },
   {
@@ -211,7 +211,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 10000,
-    img: "../image/Snack/Happytos.jpg",
+    img: "image/Snack/Happytos.jpg",
     quantity: 1,
   },
   {
@@ -220,7 +220,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 1000,
-    img: "../image/Snack/komo.jpg",
+    img: "image/Snack/komo.jpg",
     quantity: 1,
   },
   {
@@ -229,7 +229,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 2000,
-    img: "../image/Snack/lays.jpg",
+    img: "image/Snack/lays.jpg",
     quantity: 1,
   },
   {
@@ -238,7 +238,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 5000,
-    img: "../image/Snack/malkist.jpg",
+    img: "image/Snack/malkist.jpg",
     quantity: 1,
   },
   {
@@ -247,7 +247,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 1000,
-    img: "../image/Snack/mieenaak.jpg",
+    img: "image/Snack/mieenaak.jpg",
     quantity: 1,
   },
   {
@@ -256,7 +256,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 500,
-    img: "../image/Snack/miekremes.jpg",
+    img: "image/Snack/miekremes.jpg",
     quantity: 1,
   },
   {
@@ -265,7 +265,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 2000,
-    img: "../image/Snack/Taro.jpg",
+    img: "image/Snack/Taro.jpg",
     quantity: 1,
   },
   {
@@ -274,7 +274,7 @@ export const groceriesItem = [
     category: "snack",
     rating: 4.3,
     price: 2000,
-    img: "../image/Snack/tictac.jpg",
+    img: "image/Snack/tictac.jpg",
     quantity: 1,
   },
 
@@ -286,7 +286,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 8000,
-    img: "../image/Drink/Cincau panda.jpg",
+    img: "image/Drink/Cincau panda.jpg",
     quantity: 1,
   },
   {
@@ -295,7 +295,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 3000,
-    img: "../image/Drink/Floridina.jpg",
+    img: "image/Drink/Floridina.jpg",
     quantity: 1,
   },
   {
@@ -304,7 +304,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 4000,
-    img: "../image/Drink/fruittea.jpg",
+    img: "image/Drink/fruittea.jpg",
     quantity: 1,
   },
   {
@@ -313,7 +313,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 8000,
-    img: "../image/Drink/Goodday.jpg",
+    img: "image/Drink/Goodday.jpg",
     quantity: 1,
   },
   {
@@ -322,7 +322,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 7000,
-    img: "../image/Drink/Hydrococo.jpg",
+    img: "image/Drink/Hydrococo.jpg",
     quantity: 1,
   },
   {
@@ -331,7 +331,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 5000,
-    img: "../image/Drink/Kapalapi.jpg",
+    img: "image/Drink/Kapalapi.jpg",
     quantity: 1,
   },
   {
@@ -340,7 +340,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 3000,
-    img: "../image/Drink/Kopiabc.jpg",
+    img: "image/Drink/Kopiabc.jpg",
     quantity: 1,
   },
   {
@@ -349,7 +349,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 7000,
-    img: "../image/Drink/Larutan.jpg",
+    img: "image/Drink/Larutan.jpg",
     quantity: 1,
   },
   {
@@ -358,7 +358,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 3000,
-    img: "../image/Drink/Pucuk.jpg",
+    img: "image/Drink/Pucuk.jpg",
     quantity: 1,
   },
   {
@@ -367,7 +367,7 @@ export const groceriesItem = [
     category: "drink",
     rating: 4.3,
     price: 6000,
-    img: "../image/Drink/Pulpy.jpg",
+    img: "image/Drink/Pulpy.jpg",
     quantity: 1,
   },
 ];

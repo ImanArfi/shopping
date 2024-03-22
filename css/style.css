@@ -553,8 +553,8 @@ body {
   }
 
   #card-item {
-    width: 150px;
-    height: 200px;
+    width: 175px;
+    height: 225px;
   }
 
   #card-item img {
@@ -598,7 +598,7 @@ body {
   }
 
   #m-total-amount {
-    display: inline-block;
+    display: block;
     color: #33a4a4;
     padding: 5px 10px;
     margin: 0;
