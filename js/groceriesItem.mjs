@@ -127,7 +127,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 15000,
-    img: "../image/Groceries/Gula.jpg",
+    img: "image/Groceries/Gula.jpg",
     quantity: 1,
   },
   {
@@ -172,7 +172,7 @@ export const groceriesItem = [
     category: "groceries",
     rating: 4.3,
     price: 20000,
-    img: "../image/Groceries/Saus.jpg",
+    img: "image/Groceries/Saus.jpg",
     quantity: 1,
   },
   {
