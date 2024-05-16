@@ -22,17 +22,16 @@ function displayItem() {
     var cardTop = document.createElement("div");
     cardTop.setAttribute("id", "card-top");
 
-    var star = document.createElement("i");
-    star.setAttribute("class", "fa fa-star");
-    star.setAttribute("id", "rating");
-    star.innerText = " " + item.rating;
-
     var heart = document.createElement("i");
-    heart.setAttribute("class", "fa fa-heart-o add-to-cart");
-    heart.setAttribute("id", item.id);
+    heart.setAttribute("class", "fa fa-heart-o add-to-favorite");
+    heart.setAttribute("id", item.name);
 
-    cardTop.appendChild(star);
+    var plus = document.createElement("i");
+    plus.setAttribute("class", "fa fa-plus add-to-cart");
+    plus.setAttribute("id", item.id);
+
     cardTop.appendChild(heart);
+    cardTop.appendChild(plus);
 
     var img = document.createElement("img");
     img.src = item.img;
@@ -45,14 +44,19 @@ function displayItem() {
     itemPrice.setAttribute("id", "item-price");
     itemPrice.innerText = " Rp " + item.price;
 
+    var rating = document.createElement("i");
+    rating.setAttribute("class", "fa fa-star");
+    rating.setAttribute("id", "rating");
+    rating.innerText = " " + item.rating;
+
     cardItem.appendChild(cardTop);
     cardItem.appendChild(img);
     cardItem.appendChild(itemName);
     cardItem.appendChild(itemPrice);
+    cardItem.appendChild(rating);
 
     cigaretes.appendChild(cardItem);
   });
-
   groceriesData.map((item) => {
     var cardItem = document.createElement("div");
     cardItem.setAttribute("id", "card-item");
@@ -60,17 +64,16 @@ function displayItem() {
     var cardTop = document.createElement("div");
     cardTop.setAttribute("id", "card-top");
 
-    var star = document.createElement("i");
-    star.setAttribute("class", "fa fa-star");
-    star.setAttribute("id", "rating");
-    star.innerText = " " + item.rating;
-
     var heart = document.createElement("i");
-    heart.setAttribute("class", "fa fa-heart-o add-to-cart");
-    heart.setAttribute("id", item.id);
+    heart.setAttribute("class", "fa fa-heart-o add-to-favorite");
+    heart.setAttribute("id", item.name);
 
-    cardTop.appendChild(star);
+    var plus = document.createElement("i");
+    plus.setAttribute("class", "fa fa-plus add-to-cart");
+    plus.setAttribute("id", item.id);
+
     cardTop.appendChild(heart);
+    cardTop.appendChild(plus);
 
     var img = document.createElement("img");
     img.src = item.img;
@@ -83,10 +86,16 @@ function displayItem() {
     itemPrice.setAttribute("id", "item-price");
     itemPrice.innerText = " Rp " + item.price;
 
+    var rating = document.createElement("i");
+    rating.setAttribute("class", "fa fa-star");
+    rating.setAttribute("id", "rating");
+    rating.innerText = " " + item.rating;
+
     cardItem.appendChild(cardTop);
     cardItem.appendChild(img);
     cardItem.appendChild(itemName);
     cardItem.appendChild(itemPrice);
+    cardItem.appendChild(rating);
 
     groceries.appendChild(cardItem);
   });
@@ -98,17 +107,16 @@ function displayItem() {
     var cardTop = document.createElement("div");
     cardTop.setAttribute("id", "card-top");
 
-    var star = document.createElement("i");
-    star.setAttribute("class", "fa fa-star");
-    star.setAttribute("id", "rating");
-    star.innerText = " " + item.rating;
-
     var heart = document.createElement("i");
-    heart.setAttribute("class", "fa fa-heart-o add-to-cart");
-    heart.setAttribute("id", item.id);
+    heart.setAttribute("class", "fa fa-heart-o add-to-favorite");
+    heart.setAttribute("id", item.name);
 
-    cardTop.appendChild(star);
+    var plus = document.createElement("i");
+    plus.setAttribute("class", "fa fa-plus add-to-cart");
+    plus.setAttribute("id", item.id);
+
     cardTop.appendChild(heart);
+    cardTop.appendChild(plus);
 
     var img = document.createElement("img");
     img.src = item.img;
@@ -121,10 +129,16 @@ function displayItem() {
     itemPrice.setAttribute("id", "item-price");
     itemPrice.innerText = " Rp " + item.price;
 
+    var rating = document.createElement("i");
+    rating.setAttribute("class", "fa fa-star");
+    rating.setAttribute("id", "rating");
+    rating.innerText = " " + item.rating;
+
     cardItem.appendChild(cardTop);
     cardItem.appendChild(img);
     cardItem.appendChild(itemName);
     cardItem.appendChild(itemPrice);
+    cardItem.appendChild(rating);
 
     snack.appendChild(cardItem);
   });
@@ -136,17 +150,16 @@ function displayItem() {
     var cardTop = document.createElement("div");
     cardTop.setAttribute("id", "card-top");
 
-    var star = document.createElement("i");
-    star.setAttribute("class", "fa fa-star");
-    star.setAttribute("id", "rating");
-    star.innerText = " " + item.rating;
-
     var heart = document.createElement("i");
-    heart.setAttribute("class", "fa fa-heart-o add-to-cart");
-    heart.setAttribute("id", item.id);
+    heart.setAttribute("class", "fa fa-heart-o add-to-favorite");
+    heart.setAttribute("id", item.name);
 
-    cardTop.appendChild(star);
+    var plus = document.createElement("i");
+    plus.setAttribute("class", "fa fa-plus add-to-cart");
+    plus.setAttribute("id", item.id);
+
     cardTop.appendChild(heart);
+    cardTop.appendChild(plus);
 
     var img = document.createElement("img");
     img.src = item.img;
@@ -159,10 +172,16 @@ function displayItem() {
     itemPrice.setAttribute("id", "item-price");
     itemPrice.innerText = " Rp " + item.price;
 
+    var rating = document.createElement("i");
+    rating.setAttribute("class", "fa fa-star");
+    rating.setAttribute("id", "rating");
+    rating.innerText = " " + item.rating;
+
     cardItem.appendChild(cardTop);
     cardItem.appendChild(img);
     cardItem.appendChild(itemName);
     cardItem.appendChild(itemPrice);
+    cardItem.appendChild(rating);
 
     drink.appendChild(cardItem);
   });
@@ -208,14 +227,16 @@ document.querySelectorAll(".add-to-cart").forEach((item) => {
 var cartData = [];
 function addToCart() {
   var itemtoAdd = this.parentNode.nextSibling.nextSibling.innerText;
-  var itemObj = groceriesItem.find((Element) => Element.name == itemtoAdd);
+  console.log(itemtoAdd);
+  var itemObj = groceriesItem.find((element) => element.name == itemtoAdd);
+  console.log(itemObj);
 
   var index = cartData.indexOf(itemObj);
   if (index === -1) {
-    document.getElementById(itemObj.id).classList.add("toggle-heart");
+    document.getElementById(itemObj.id).classList.add("toggle-plus");
     cartData = [...cartData, itemObj];
   } else if (index > -1) {
-    alert("Added To Cart!");
+    alert("Check Your Cart");
   }
 
   document.getElementById("cart-plus").innerText =
@@ -300,7 +321,7 @@ function decrementItem() {
     decObj.quantity -= 1;
     decObj.price = currPrice * decObj.quantity;
   } else {
-    document.getElementById(decObj.id).classList.remove("toggle-heart");
+    document.getElementById(decObj.id).classList.remove("toggle-plus");
     cartData.splice(ind, 1);
     document.getElementById("cart-plus").innerText =
       " " + cartData.length + " items";

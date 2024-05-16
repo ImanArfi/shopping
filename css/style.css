@@ -151,7 +151,7 @@ body {
 
 #card-item {
   width: 180px;
-  height: 220px;
+  height: 250px;
   padding: 10px;
   margin: 10px;
   display: inline-block;
@@ -172,10 +172,9 @@ body {
   justify-content: space-between;
 }
 
-.fa-heart-o {
+#groceries-item .fa-heart-o {
   padding: 6px;
   border-radius: 50%;
-  background: white;
   cursor: pointer;
 }
 
@@ -185,11 +184,17 @@ body {
 }
 
 #rating {
+  display: flex;
+  font-size: 1rem;
   padding: 5px;
+  margin: 5px 3rem;
   color: goldenrod;
   background: #000;
-  border-radius: 20px;
+  border: 1px solid #000;
+  border-radius: 50px;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 
 #rating span {
@@ -226,6 +231,17 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1rem;
+}
+
+.fa-plus {
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.toggle-plus {
+  background: rgba(51, 164, 164, 0.9);
 }
 
 .groceries-item {
@@ -418,7 +434,11 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+.btn-box {
+  display: none;
+}
+
+@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   .container {
     display: none;
   }
@@ -553,7 +573,7 @@ body {
   }
 
   #card-item {
-    width: 175px;
+    width: 185px;
     height: 225px;
   }
 
@@ -614,11 +634,12 @@ body {
   }
 
   .btn-box {
+    display: block;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 400px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 425px) and (-webkit-min-device-pixel-ratio: 2) {
   #mobile-view {
     min-height: -webkit-fill-available;
   }
